@@ -8,13 +8,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind-dark.css"
-      integrity="sha512-3woKixn3VczzzCzWvI7XqNNfVXP0fQVn4dLXg/3Uj0h/p35KnT0nkeriLR50HwrPe+agHiBMN56Q34GvHG2mag=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode:
+          "class"
+      };
+    </script>
   </head>
 
   <body class="bg-gray-100 dark:bg-black">
@@ -32,7 +32,6 @@
       </label>
     </div>
     <div class="container mx-auto py-10 text-center">
-
       <div class="w-24 h-24 mx-auto rounded-full overflow-hidden bg-gray-300">
         <img alt="logo" src="./logo.webp" class="w-full h-full object-cover" />
       </div>
