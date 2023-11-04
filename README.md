@@ -4,7 +4,7 @@ Explore: https://sankovicivana.github.io/index.html
 
 # Developer Resources
 
-Developer Resources is a curated collection of valuable resources for developers, including frontend tools, DevOps guides, and essential reading materials.
+Developer Resources is a collection of valuable resources for developers, such as tools, guides, and essential reading materials.
 
 ## Installation
 
