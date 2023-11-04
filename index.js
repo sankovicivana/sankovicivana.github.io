@@ -92,7 +92,7 @@ function generateCards(
   let sectionHTML = "";
   if (containerSelector === ".top-links-container") {
     sectionHTML = `
-    <h1 class="md:text-4xl text-3xl font-bold text-blue-900 mb-4 dark:text-gray-200">
+    <h1 class="md:text-4xl text-2xl font-bold text-blue-900 mb-4 dark:text-gray-200">
       ${headingTitle}
     </h1>
     <hr class="bg-gray-500 h-1 md:w-1/2 w-11/12 mx-auto mb-4" />
@@ -132,8 +132,7 @@ function generateSocialIcons() {
     topLinks,
     ".top-links-container",
     "bg-indigo-200",
-    "Developer Resources Hub",
-    "md:text-4xl text-3xl font-bold "
+    "Developer Resources Hub"
   );
   generateCards(
     frontend,
@@ -155,7 +154,6 @@ function generateSocialIcons() {
   );
 })();
 
-  
 toggle.addEventListener("change", () => {
   const isDarkMode = toggle.checked;
   const darkClass = "dark";
