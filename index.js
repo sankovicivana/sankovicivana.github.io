@@ -64,7 +64,7 @@ const devops = [
 const readingList = [
   {
     id: "rd-1",
-    link: "https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws/",
+    link: "https://www.classroom.rs/kako-besplatno-hostovati-projekat/",
     title: "HOST FOR FREE ON GITHUB PAGES",
   },
 ];
