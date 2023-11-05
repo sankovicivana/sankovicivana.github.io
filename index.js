@@ -80,11 +80,13 @@ function generateCards(
   const cardsHTML = cards
     .map(
       (item) => `
-    <div class="rounded-xl border border-solid border-gray-300 ${bgColorClass} hover:bg-pink-500 py-4 my-2 text-center cursor-pointer dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <a href="${item.link}" target="_blank" class="text-indigo-900 hover:text-white text-sm md:text-base dark:text-gray-200 dark:hover:text-white">
-        ${item.title}
-      </a>
-    </div>
+      <a href="${item.link}" target="_blank">
+      <div class="rounded-xl border border-solid border-gray-300 ${bgColorClass} hover:bg-pink-500 py-4 my-2 text-center cursor-pointer dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <div class="text-indigo-900 hover:text-white text-sm md:text-base dark:text-gray-200 dark:hover:text-white">
+          ${item.title}
+        </div>
+      </div>
+    </a>
   `
     )
     .join("");
