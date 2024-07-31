@@ -43,7 +43,7 @@ const frontend = [
   },
   {
     id: "f-2",
-    link: "https://www.classroom.rs/dva-najbolja-nacina-da-centriras-div-u-2023/",
+    link: "https://www.blog.classroom.rs/dva-najbolja-nacina-da-centriras-div-u-2023/",
     title: "LEARN HOW TO CENTER DIV 2023",
   },
   {
