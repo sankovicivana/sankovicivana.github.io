@@ -13,7 +13,7 @@ const socialIconsData = [
     iconClass: "fas fa-envelope",
   },
   {
-    link: "https://classroom.rs/",
+    link: "https://blog.classroom.rs/",
     iconClass: "fas fa-globe",
   },
 ];
