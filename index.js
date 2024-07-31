@@ -67,6 +67,16 @@ const readingList = [
     link: "https://www.classroom.rs/kako-besplatno-hostovati-projekat/",
     title: "HOST FOR FREE ON GITHUB PAGES",
   },
+  {
+    id: "rd-2",
+    link: "https://blog.classroom.rs/clasora-platform/",
+    title: "ABOUT CLASORA PLATFORM",
+  },
+  {
+    id: "rd-3",
+    link: "https://clasora.com/sr/predavanje",
+    title: "CLASORA PLATFORM",
+  },
 ];
 
 function generateCards(
